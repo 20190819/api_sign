@@ -1,0 +1,20 @@
+{
+    "name": "young/laravel-api-sign",
+    "require": {},
+    "authors": [
+        {
+            "name": "young",
+            "email": "1034211002@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Young\\ApiSign\\ApiSignServiceProvider"
+            ],
+            "aliases": {
+                "ApiSign": "Young\\ApiSign\\ApiSignFacade"
+            }
+        }
+    }
+}
