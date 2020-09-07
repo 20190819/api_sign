@@ -7,7 +7,7 @@
  */
 
 
-namespace Young\ApiSign;
+namespace Yang\ApiSign;
 
 use Illuminate\Support\Facades\Facade;
 use Yang\ApiSign\Service\ApiSignService;

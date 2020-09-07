@@ -1,6 +1,6 @@
 <?php
 
-namespace Young\ApiSign;
+namespace Yang\ApiSign;
 
 use Illuminate\Support\ServiceProvider;
 use Yang\ApiSign\Service\ApiSignService;
