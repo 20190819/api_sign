@@ -1,19 +1,19 @@
 {
-    "name": "young/laravel-api-sign",
+    "name": "yang/laravel-api-signature",
     "require": {},
     "authors": [
         {
-            "name": "young",
+            "name": "yang",
             "email": "1034211002@qq.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "Young\\ApiSign\\ApiSignServiceProvider"
+                "Yang\\ApiSign\\ApiSignServiceProvider"
             ],
             "aliases": {
-                "ApiSign": "Young\\ApiSign\\ApiSignFacade"
+                "ApiSign": "Yang\\ApiSign\\ApiSignFacade"
             }
         }
     }

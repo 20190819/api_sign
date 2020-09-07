@@ -10,7 +10,7 @@
 namespace Young\ApiSign;
 
 use Illuminate\Support\Facades\Facade;
-use Young\ApiSign\Service\ApiSignService;
+use Yang\ApiSign\Service\ApiSignService;
 
 class ApiSignFacade extends Facade
 {

@@ -3,7 +3,7 @@
 namespace Young\ApiSign;
 
 use Illuminate\Support\ServiceProvider;
-use Young\ApiSign\Service\ApiSignService;
+use Yang\ApiSign\Service\ApiSignService;
 
 class ApiSignServiceProvider extends ServiceProvider
 {

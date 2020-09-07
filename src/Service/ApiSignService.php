@@ -6,9 +6,9 @@
  * Time: 16:14
  */
 
-namespace Young\ApiSign\Service;
+namespace Yang\ApiSign\Service;
 
-use Young\ApiSign\Exceptions\HttpException;
+use Yang\ApiSign\Exceptions\HttpException;
 
 class ApiSignService implements ApiSign
 {

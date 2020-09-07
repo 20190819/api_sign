@@ -1,6 +1,6 @@
 <?php
 
-namespace Young\ApiSign\Exceptions;
+namespace Yang\ApiSign\Exceptions;
 
 use Exception;
 

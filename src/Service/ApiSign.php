@@ -1,6 +1,6 @@
 <?php
 
-namespace Young\ApiSign\Service;
+namespace Yang\ApiSign\Service;
 
 interface ApiSign
 {
