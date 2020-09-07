@@ -26,6 +26,8 @@ class ApiSignServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__.('/../config/sign.php') => config_path('sign.php'),
+        ]);
     }
 }
