@@ -8,6 +8,7 @@
 
 namespace Young\ApiSign\Service;
 
+use Young\ApiSign\Exceptions\HttpException;
 
 class ApiSignService implements ApiSign
 {
@@ -17,7 +18,7 @@ class ApiSignService implements ApiSign
         if ($appid) {
             $secret = config("sign.{$appid}");
         }
-        return $secret ?? null;
+        return $secret ?? '';
     }
 
     public static function create($appid, $timestamp): string
@@ -34,7 +35,7 @@ class ApiSignService implements ApiSign
             $signature = hash_hmac('sha1', $str, $secret, true);
             return md5(base64_encode($signature));
         } else {
-            // todo
+            throw new HttpException('非法的APPID', -1);
         }
 
     }
